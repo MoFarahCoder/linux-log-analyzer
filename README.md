@@ -1,2 +1,7 @@
 # linux-log-analyzer
-Simple Python script that scans Linux system logs and prints any error lines.
+
+Python CLI tool that scans a Linux syslog-style file and prints any line containing *error*, *fail*, *critical*, or *panic*.
+
+## Usage
+```bash
+python logscan.py        # default log: /var/log/syslog
